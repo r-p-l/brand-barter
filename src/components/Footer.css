@@ -1,0 +1,54 @@
+.footer{
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10px;
+    padding-top:0px;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+
+}
+.scroll-button{
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -30px;
+    background-color: #000;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+
+}
+.scroll-button:hover{
+    color: #999;
+}
+
+.scroll-button>*{
+    font-size:2.9rem !important;
+}
+
+.footer-info{
+    margin: 5px 0;
+}
+.footer-social{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social>*{
+    margin:10px;
+    font-size: 2.2rem !important; 
+    cursor: pointer;
+    /* transition: 250ms ease; */
+}
+.footer-social>*:hover{
+    transform: scale(1.09);
+}

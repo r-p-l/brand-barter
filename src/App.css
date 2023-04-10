@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  transition: 250ms ease;
+}
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+  background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb{
+  background: #777;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #666;
+}
+
